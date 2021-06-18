@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="content" method="upgrade">
+	<name>plg_content_awesome</name>
+	<author>Aman Dwivedi</author>
+	<creationDate>June 2021</creationDate>
+	<copyright>(C) 2021 Aman Dwivedi</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>aman.dwivedi5@gmail.com</authorEmail>
+	<authorUrl>https://aman-codes.github.io/</authorUrl>
+	<version>1.0</version>
+	<description>PLG_CONTENT_AWESOME_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="awesome">awesome.php</filename>
+    <filename plugin="awesome">en-GB.plg_content_awesome.ini</filename>
+    <filename plugin="awesome">en-GB.plg_content_awesome.sys.ini</filename>
+	</files>
+	<languages folder="administrator/language/en-GB">
+		<language tag="en-GB">en-GB.plg_content_awesome.ini</language>
+		<language tag="en-GB">en-GB.plg_content_awesome.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="custom_heading"
+					type="text"
+					label="PLG_CONTENT_AWESOME_PARAM_TEXT_LABEL"
+					description="PLG_CONTENT_AWESOME_PARAM_TEXT_DESCRIPTION"
+					hint="Your Custom Heading"
+				/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
